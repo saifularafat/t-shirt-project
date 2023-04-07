@@ -3,19 +3,22 @@
 @tailwind utilities;
 
 .my-container{
-    @apply bg-gray-300 w-11/12 mx-auto md:mt-10
+    @apply bg-gray-300 w-full mx-auto md:mt-10 px-6
 }
 .outlet-container{
-    @apply w-11/12 mx-auto md:py-10 bg-orange-200 px-5
+    @apply w-full mx-auto md:py-10 bg-orange-200 px-5
 }
 
 .link-style{
     @apply ml-4 text-xl text-green-600 font-semibold hover:text-green-900 hover:bg-green-300 hover:px-1 px-1 hover:underline transition duration-200
 }
 
-
+.btn-buy{
+    @apply border border-emerald-500 hover:border-orange-400 rounded-lg bg-orange-300 hover:bg-orange-600 
+    py-2 mt-4 transition duration-200 text-xl font-medium hover:text-white w-full tracking-wide
+}
 
 
 .footer{
-    @apply w-11/12 mx-auto bg-slate-400 text-center text-xl text-slate-700 py-3
+    @apply w-full mx-auto bg-slate-400 text-center text-xl text-slate-700 py-3
 }
